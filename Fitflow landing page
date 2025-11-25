@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FitFlow - Your All-in-One Fitness App</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; text-align:center; background:#f7f7f7; }
+    header { background-color:#28a745; color:white; padding:50px 20px; }
+    header h1 { margin:0; font-size:2em; }
+    header p { font-size:1.2em; margin-top:10px; }
+    section { padding:40px 20px; background:white; margin:20px 10px; border-radius:10px; box-shadow:0 4px 8px rgba(0,0,0,0.1); }
+    h2 { color:#28a745; }
+    .features { display:flex; flex-direction:column; gap:20px; margin-top:20px; text-align:left; }
+    .feature { padding:10px 0; }
+    footer { background-color:#333; color:white; padding:20px; margin-top:20px; }
+    a.button { display:inline-block; margin-top:20px; padding:15px 30px; background:#28a745; color:white; text-decoration:none; font-weight:bold; border-radius:8px; }
+    @media(min-width:600px){ .features { flex-direction:row; flex-wrap:wrap; justify-content:center; } .feature { width:45%; padding:20px; } }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>FitFlow</h1>
+  <p>Your All-in-One Fitness App</p>
+</header>
+
+<section>
+  <h2>Features</h2>
+  <div class="features">
+    <div class="feature">
+      <h3>AI Food Scanner</h3>
+      <p>Scan meals instantly and get nutritional insights with AI-powered accuracy.</p>
+    </div>
+    <div class="feature">
+      <h3>Body Twin</h3>
+      <p>Track your body changes with personalized visual progress tracking.</p>
+    </div>
+    <div class="feature">
+      <h3>Community</h3>
+      <p>Join a vibrant community of fitness enthusiasts for motivation and tips.</p>
+    </div>
+    <div class="feature">
+      <h3>Meal Tracker</h3>
+      <p>Plan and track your meals to stay on top of your nutrition goals.</p>
+    </div>
+    <div class="feature">
+      <h3>AI Coaching Assistant</h3>
+      <p>Get smart workout guidance and coaching tailored to your fitness level.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Pricing</h2>
+  <p>Get full access to all FitFlow features for only <strong>$9.99/month</strong>.</p>
+  <a class="button" href="#">Subscribe Now</a>
+</section>
+
+<section>
+  <h2>Contact & Support</h2>
+  <p>Email: support@fitflow.com</p>
+</section>
+
+<footer>
+  <p>&copy; 2025 FitFlow</p>
+</footer>
+
+</body>
+</html>
